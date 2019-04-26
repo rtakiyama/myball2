@@ -21,3 +21,7 @@ void draw(){
   b.display();
   b.move();
 }
+
+void mouseClicked(){
+  noLoop();
+}
