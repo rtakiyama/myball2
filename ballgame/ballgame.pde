@@ -5,6 +5,7 @@ class Ball{
     ellipse(x,y,size,size);
   }
   void move(){
+    x++;
   }
 }
 
