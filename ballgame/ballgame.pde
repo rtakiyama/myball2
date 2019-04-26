@@ -6,10 +6,8 @@ class Ball{
     ellipse(x,y,size,size);
   }
   void move(){
-    x+=direction;
-    if(x<0||x>width){
-      direction*=-1;
-    }
+    x=(x+1)%height;
+    y=(y+1)%width;
   }
 }
 
