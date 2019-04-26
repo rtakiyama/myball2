@@ -6,7 +6,7 @@ class Ball{
     ellipse(x,y,size,size);
   }
   void move(){
-    x=(x-1)%height;
+    x=(x+1)%height;
     y=(y+1)%width;
   }
 }
