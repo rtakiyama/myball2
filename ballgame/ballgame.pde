@@ -1,11 +1,15 @@
 class Ball{
   int x=100,y=100;
   int size=20;
+  int direction=1;
   void display(){
     ellipse(x,y,size,size);
   }
   void move(){
-    x++;
+    x+=direction;
+    if(x<0||x>width){
+      direction*=-1;
+    }
   }
 }
 
