@@ -1,3 +1,6 @@
+Opponent opp;
+Player p1;
+
 class Ball{
   int x=100,y=100;
   int size=20;
